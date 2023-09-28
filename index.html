@@ -12,10 +12,10 @@
 
   <body>
     <calcite-shell>
-      <calcite-panel heading="Using esri/request">
+      <calcite-panel heading="Get Service Fields/Search for Fields">
         <calcite-block
           heading="Enter a URL:"
-          description='Enter a server URL to the input box below, then click the "Make Request" button to send a request.'
+          description='Enter a server URL to the input box below, then click the "Request" button.'
           open
         >
           <calcite-input-text
@@ -24,23 +24,25 @@
             value="https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer"
             required
           ></calcite-input-text>
+          Search for a field in the service (exact name/case)
           <calcite-input-text
             id="input-field-search"
-            placeholder="se_anno_cad_data"
-            value="se_anno_cad_data"
+            placeholder="Field to search for, eg se_anno_cad_data"
+            value=""
+            style="margin-bottom: 8px;"
           ></calcite-input-text>
-          <button id="request-button" style="padding-top: 5px">Make Map Request</button>
+          <calcite-button id="request-button" style="height: 42px" >Request</calcite-button>
           <calcite-label style="padding-top: 10px" scale="l"
-            >Server response from the request:
+            >Response from the request:
             <calcite-text-area
               id="results-text-area"
-              placeholder="Request response will show here.."
+              placeholder="All fields will show here for each layer in service...."
               read-only
               rows="25"
-            ></calcite-text-area>
+            ></calcite-text-area>Layers with search field:
             <calcite-text-area
               id="fields-text-area"
-              placeholder="Urls of se anno fields.."
+              placeholder="Urls of layers with search field will show here...."
               read-only
               rows="25"
             ></calcite-text-area>
