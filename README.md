@@ -1,7 +1,9 @@
-# Search/List fields in a Service (ArcGIS)
+# Search/List layers with a given field-name in an ArcGIS REST Service
 
-A quick snippet of code to search for a field name in an ArcGIS service. Needed to find layers across a number of services that had a particular field, so built this as an exercise in better understanding JS Promises/creating something reusable.
+This is a quick snippet of code to search for a field name in an ArcGIS REST service.
 
-It's extended from sample code here: https://developers.arcgis.com/javascript/latest/sample-code/request/
+This was borne out of a need to find layers across a number of services that had a particular field name. So I built this as an exercise in better understanding JS promise-chaining and creating something reusable.
+
+It's extended from ESRI sample code here: https://developers.arcgis.com/javascript/latest/sample-code/request/
 
 Hosted on GitHub Pages here https://mayadomi.github.io/arcgis-rest-mapservice-search/
