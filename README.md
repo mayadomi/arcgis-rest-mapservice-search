@@ -7,3 +7,9 @@ This was borne out of a need to find layers across a number of services that had
 It's extended from ESRI sample code here: https://developers.arcgis.com/javascript/latest/sample-code/request/
 
 Hosted on GitHub Pages here https://mayadomi.github.io/arcgis-rest-mapservice-search/
+
+Bugs
+CORS-handling
+
+Improvements
+Options for broader searches - eg wildcards, partial results, case sensitivity etc. Currently searching is by exact name/case only
