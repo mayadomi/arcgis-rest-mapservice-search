@@ -8,8 +8,8 @@ It's extended from ESRI sample code here: https://developers.arcgis.com/javascri
 
 Hosted on GitHub Pages here https://mayadomi.github.io/arcgis-rest-mapservice-search/
 
-Bugs
+## Bugs
 CORS-handling
 
-Improvements
+## Improvements
 Options for broader searches - eg wildcards, partial results, case sensitivity etc. Currently searching is by exact name/case only
